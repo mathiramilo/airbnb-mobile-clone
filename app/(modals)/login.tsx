@@ -1,11 +1,12 @@
 import { View, Text, StyleSheet, TextInput, TouchableOpacity } from 'react-native'
 import React from 'react'
-import { useWarmUpBrowser } from '@/hooks/useWarmUpBrowser'
-import { defaultStyles } from '@/constants/Styles'
-import Colors from '@/constants/Colors'
 import { Ionicons } from '@expo/vector-icons'
 import { useOAuth } from '@clerk/clerk-expo'
 import { useRouter } from 'expo-router'
+
+import { useWarmUpBrowser } from '@/hooks/useWarmUpBrowser'
+import Colors from '@/constants/Colors'
+import { defaultStyles } from '@/constants/Styles'
 
 enum Strategy {
   Google = 'oauth_google',

@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native'
 import React, { useState } from 'react'
+
 import Colors from '@/constants/Colors'
 
 const ModalHeaderText = () => {

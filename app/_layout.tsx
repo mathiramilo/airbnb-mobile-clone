@@ -6,6 +6,7 @@ import { useEffect } from 'react'
 import { TouchableOpacity } from 'react-native'
 import * as SecureStore from 'expo-secure-store'
 import { useAuth, ClerkProvider } from '@clerk/clerk-expo'
+
 import ModalHeaderText from '@/components/ModalHeaderText'
 import Colors from '@/constants/Colors'
 
